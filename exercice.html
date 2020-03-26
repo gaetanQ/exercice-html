@@ -12,8 +12,8 @@
         <link rel="stylesheet" href="assets/css/style.css">  <!-- lien relatif à la feuille de style css-->
         <style>
             table, td, tr, th {
-            padding: 10px;
-            border: 3px solid black;    
+            padding: 2px;
+            border: 1px solid black;    
             border-collapse:separate; border-spacing: 1px;
             }
         </style>
@@ -68,64 +68,75 @@
 <hr>
 <h1>Tableau</h1>
 
-<table>
-    <caption><b>Les signes astrologiques<b></caption>
+<body>
+ <table>
+     <caption><b>Les signes astrologiques<b></caption> <!--titre du tableau-->
+       <thead> <!--en tete du tableau-->
+            <tr>
+                <th scope="Dates">Dates</th>
+             <th scope="Signes">Signes</th>
+            </tr>
+     </thead>
+     <tbody>  <!--corps du tableau-->
+             <tr> 
+                 <td>22/12 - 19/01</td>
+                 <td>Capricorne</td>
+             </tr>
+             <tr>
+               <td>20/01 - 19/02</td>
+               <td>Verseau</td>
+             </tr>
+             <tr>
+               <td>20/02 - 20/03</td>
+               <td>Poissons</td>
+             </tr>
+               <td>21/03 - 19/04</td>
+               <td>Bélier</td>
+             <tr>
+                <td>20/04 - 20/05</td>
+               <td>Taureau</td>
+             </tr>
+             <tr>
+                <td>21/05 - 20/06</td>
+                <td>Gémeaux</td>
+            </tr>
+             <tr>
+                <td>21/06 - 22/07</td>
+                <td>Cancer</td>
+             </tr>
+             <tr>
+                <td>23/07 - 23/08</td>
+                <td>Lion</td>
+            </tr>
+             <tr>
+                <td>24/08 - 22/09</td>
+                <td>Vierge</td>
+            </tr>
+            <tr>
+                <td>23/09 - 22/10</td>
+                <td>Balance</td>
+            </tr>
+            <tr>
+                <td>23/10 - 21/11</td>
+                <td>Scorpion</td>
+            </tr>
+     </tbody>
+     <tfoot>  <!--pied de tableau-->  
+            <tr>
+                <td>22/11 - 21/12</td>
+                <td>Sagittaire</td>
+            </tr>
+     </tfoot>        
 
-     <tr>
-         <th scope="Dates">Dates</th>
-         <th scope="Signes">Signes</th>
-     </tr>
-       <tr> 
-           <td>22/12 - 19/01</td>
-           <td>Capricorne</td>
-       </tr>
-       <tr>
-           <td>20/01 - 19/02</td>
-           <td>Verseau</td>
-       </tr>
-       <tr>
-           <td>20/02 - 20/03</td>
-           <td>Poissons</td>
-        </tr>
-           <td>21/03 - 19/04</td>
-           <td>Bélier</td>
-        <tr>
-            <td>20/04 - 20/05</td>
-            <td>Taureau</td>
-        </tr>
-        <tr>
-            <td>21/05 - 20/06</td>
-            <td>Gémeaux</td>
-        </tr>
-        <tr>
-            <td>21/06 - 22/07</td>
-            <td>Cancer</td>
-        </tr>
-        <tr>
-            <td>23/07 - 23/08</td>
-            <td>Lion</td>
-        </tr>
-        <tr>
-            <td>24/08 - 22/09</td>
-            <td>Vierge</td>
-        </tr>
-        <tr>
-            <td>23/09 - 22/10</td>
-            <td>Balance</td>
-        </tr>
-        <tr>
-            <td>23/10 - 21/11</td>
-            <td>Scorpion</td>
-        </tr>
-        <tr>
-            <td>22/11 - 21/12</td>
-            <td>Sagittaire</td>
-        </tr>
 
-</table>
+ </table>
+</body>
+
 <hr>
 <h1>Reproduction texte</h1>
 
+<body>
 <h3>Citizen Kane</h3>
  <p> Kane,favori pour le poste de gouverneur, tient son discours de campagne. Au début des années 1940, Charles <br> Foster Kane meurt dans son manoir de Xanadu, un vaste domaine palatial de Floride, en prononçant dans un <br> dernier souffle <i>rosebud</i></p>
- 
+ </body>
+ </html>
